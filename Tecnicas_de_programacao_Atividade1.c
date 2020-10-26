@@ -119,7 +119,6 @@ return 0;
 
  void organiza_db_por_ano(struct carro *arr_carro) {
     contador = 0;
-    printf("\n carro0 = %d, carro1 = %d",arr_carro[contador].ano_fabricacao, arr_carro[contador +1].ano_fabricacao );
     for (contador = 0; contador < 11; contador++) {
         if (arr_carro[contador].ano_fabricacao > arr_carro[contador +1].ano_fabricacao){
 
