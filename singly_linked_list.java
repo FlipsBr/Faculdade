@@ -1,6 +1,6 @@
 class LinkedList {
     Node head;
-    //oi.
+    //oi..
     static class Node //Static faz com que não sejam criadas instâncias de um novo Node
     //Mas sim, que todos novos Nodes pertencem a llist, que é instanciada na linha 20.
     {
